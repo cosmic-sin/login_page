@@ -1,0 +1,178 @@
+/* body {
+    background-image:url("https://t4.ftcdn.net/jpg/08/16/51/57/360_F_816515737_r9lDtalZy0jhdsZMvSSZgdkzTurbfEzf.jpg");
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+  }
+
+.login-box{
+  width: 300px;
+  background-color:rgba(red, green, blue, alpha);
+  border: 1px solid darkmagenta;
+  padding: 20px;
+  margin-top: 10%;
+  margin-left: 40%;
+  margin-right: 50%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
+.login-box h1{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family:'Courier New', Courier, monospace;
+  color: darkred;
+  
+}
+
+.login-box label{
+display: block;
+margin-bottom: 10px;
+margin-left: 20px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+font-size: 16px; 
+color:darkred;
+border-color: deeppink;
+
+}
+
+.login-box input[type="text"], .login-box input[type="password"]{
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 16px; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  border: 1px solid #ccc;
+  border-color: deeppink;
+  border-radius: 20px 
+  
+}
+
+.login-box input[type="submit"]{
+  width: 50%;
+  padding: 10px;
+  margin-bottom:20px;
+  color:white;
+  background-color:darkmagenta;
+  text-align: center;
+  margin-left: 80px;
+  border: #ccc;
+  border-radius: 20px ;
+  cursor: pointer;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.login-box input[type="submit"]:hover{
+  color: white;
+  background-color: deeppink;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+
+.gif {
+  position: fixed;
+  position: absolute;
+  top: 75px;
+  right: 520px;
+  width: 100px;
+  padding: 10px;
+  background-color: transparent;
+}
+ */
+
+ body {
+  background-image: url("https://t4.ftcdn.net/jpg/08/16/51/57/360_F_816515737_r9lDtalZy0jhdsZMvSSZgdkzTurbfEzf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 300px;
+  background-color:transparent;
+  border: 1px solid darkmagenta;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkred;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 30px;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: darkred;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  border: 1px solid deeppink;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  color: white;
+  background-color: darkmagenta;
+  border-color: darkslateblue;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login-box input[type="submit"]:hover {
+  background-color: deeppink;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.options{
+  margin: 10px;
+
+}
+.options a{
+  padding: 10px;
+  color:darkred;
+
+}
+.options a:hover{
+color: blueviolet;
+
+}
+
+.gif {
+  position: absolute;
+  top: -90px;
+  right: -40px;
+  width: 100px;
+  background-color: transparent;
+}
